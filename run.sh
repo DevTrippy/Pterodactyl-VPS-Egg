@@ -75,15 +75,6 @@ get_formatted_dir() {
 
 # Function to print the banner
 print_banner() {
-    printf "\033c"
-    printf "${GREEN}╭────────────────────────────────────────────────────────────────────────────────╮${NC}\n"
-    printf "${GREEN}│                                                                                │${NC}\n"
-    printf "${GREEN}│                             Pterodactyl VPS EGG                                │${NC}\n"
-    printf "${GREEN}│                                                                                │${NC}\n"
-    printf "${GREEN}│                           ${RED}© 2021 - 2024 ${PURPLE}@ysdragon${GREEN}                              │${NC}\n"
-    printf "${GREEN}│                                                                                │${NC}\n"
-    printf "${GREEN}╰────────────────────────────────────────────────────────────────────────────────╯${NC}\n"
-    printf "                                                                                               \n"
 }
 
 print_instructions() {
